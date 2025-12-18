@@ -18,6 +18,8 @@
     width: 250px;
     position: absolute;
     top: 10%;
+    margin: -100px 0px 0px -50px;
+    -webkit-border-radius: 250px 0 0 0;
 }
 
 #red {
@@ -26,8 +28,11 @@
     border-radius: 250px 0 0 0;
     height: 250px;
     width: 250px;
+    margin: -50px 0px 0px 50px;
     position: absolute;
     right: 10%;
+    -webkit-border-radius: 0 250px 0 0;
+
 }
 #yellow {
     background-color: rgb(239, 220, 11);
