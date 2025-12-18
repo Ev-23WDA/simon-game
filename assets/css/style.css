@@ -1,0 +1,16 @@
+#first-circle {
+    background-color: beige;
+    border-radius: 30%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    border: 10px;
+    border-color: blue;
+}
+
+#green {
+    background-color: green;
+    border-style: double;
+    border-radius: 150px 0 0 0;
+}
