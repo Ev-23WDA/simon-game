@@ -19,11 +19,13 @@
     position: absolute;
     top: 10%;
     margin: -100px 0px 0px -50px;
-    -webkit-border-radius: 250px 0 0 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 #red {
-    background-color: rgb(174, 13, 8);
+    background-color: rgb(20, 19, 19);
     border-style: double;
     border-radius: 250px 0 0 0;
     height: 250px;
@@ -31,7 +33,9 @@
     margin: -50px 0px 0px 50px;
     position: absolute;
     right: 10%;
-    -webkit-border-radius: 0 250px 0 0;
+     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 
 }
 #yellow {
@@ -42,6 +46,9 @@
     width: 250px;
     position: absolute;
     bottom: 10%;
+     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 #blue {
     background-color: rgb(15, 11, 212);
@@ -52,4 +59,7 @@
     position: absolute;
     bottom: 10%;
     right: 10%;
+     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
