@@ -35,8 +35,11 @@
     border-radius: 250px 0 0 0;
     height: 250px;
     width: 250px;
-    margin: -50px 0px 0px 50px;
+    -moz-border-radius: 0 250px 0 0;
+    -webkit-border-radius: 0 250px 0 0;
+    margin: -50px -50px 0px 0px;
     position: absolute;
+    top: 10%;
     right: 10%;
      box-sizing: border-box;
     -moz-box-sizing: border-box;
