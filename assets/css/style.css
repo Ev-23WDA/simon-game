@@ -5,9 +5,11 @@
     width: 500px;
     position: relative;
     margin: auto;
+    margin-top: 60px;
     border: 10px;
-    border-color: rgb(9, 9, 9);
+    border-width: 10px;
     border-style: solid;
+    box-shadow: 10px 10px 20px 5px #777777;
 }
 
 #green {
@@ -16,16 +18,19 @@
     border-radius: 250px 0 0 0;
     height: 250px;
     width: 250px;
+    -moz-border-radius: 250px 0 0 0;
+    -webkit-border-radius: 250px 0 0 0;
     position: absolute;
     top: 10%;
-    margin: -100px 0px 0px -50px;
+    left: 10%;
+    margin: -50px 0px 0px -50px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
 
 #red {
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(212, 27, 27);
     border-style: double;
     border-radius: 250px 0 0 0;
     height: 250px;
@@ -46,7 +51,8 @@
     width: 250px;
     position: absolute;
     bottom: 10%;
-     box-sizing: border-box;
+    left: 10%;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
