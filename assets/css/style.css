@@ -49,9 +49,12 @@
     border-radius: 250px 0 0 0;
     height: 250px;
     width: 250px;
+    -moz-border-radius: 0 0 0 250px;
+    -webkit-border-radius: 0 0 0 250px;
     position: absolute;
     bottom: 10%;
     left: 10%;
+    margin: 0px 0px -50px -50px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -60,8 +63,8 @@
     background-color: rgb(15, 11, 212);
     border-style: double;
     border-radius: 250px 0 0 0;
-    height: 250px;
-    width: 250px;
+    height: 50px;
+    width: 50px;
     position: absolute;
     bottom: 10%;
     right: 10%;
