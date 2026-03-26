@@ -66,12 +66,15 @@
     background-color: rgb(15, 11, 212);
     border-style: double;
     border-radius: 250px 0 0 0;
-    height: 50px;
-    width: 50px;
+    height: 250px;
+    width: 250px;
+    -moz-border-radius: 0 0 250px 0;
+    -webkit-border-radius: 0 0 250px 0;
     position: absolute;
     bottom: 10%;
     right: 10%;
-     box-sizing: border-box;
+    margin: 0px -50px -50px 0px;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
