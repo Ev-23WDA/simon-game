@@ -80,13 +80,22 @@
 }
 
 .center {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
+    position: relative;
+    width: 210px;
+    height: 210px;
+    border-radius: 300%;
     background-color: gray;
-    top: 200px;
-    display: inline-block;
-    
+    top: -370px;
+    left: 520px;
 }
 
+.active {
+    background-color: white;
+}
+
+.panel {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
