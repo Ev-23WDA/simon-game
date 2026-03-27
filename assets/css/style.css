@@ -99,3 +99,8 @@
     display: inline-block;
     cursor: pointer;
 }
+
+.panel:hover {
+    box-shadow: inset 0px 0px 0px 5px rgb(244, 232, 232);
+    box-sizing: border-box;
+}
