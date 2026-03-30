@@ -15,11 +15,12 @@ return panels[parseInt(Math.random() * panels.length)];
 
 
 const sequence = [
-    green,
-    red,
-    yellow,
-    blue
+    getRandomPanel(),
+    getRandomPanel(),
+    getRandomPanel(),
+    getRandomPanel()
 ];
+
 const flash = panel => {
     return new Promise((resolve, reject) => {
         panel.className += ' active';
