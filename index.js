@@ -34,6 +34,11 @@ const flash = panel => {
     });
 };
 
+let canClick = false;
+const panelClicked = panel => {
+    console.log(panel);
+};
+
 const main = async () => {
     for (const panel of sequence) {
         await flash(panel);
